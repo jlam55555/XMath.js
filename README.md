@@ -14,7 +14,7 @@ JavaScript XMath library (and friends) for supplemental math functions (outside 
 <tr>
 	<td><code>xbigfraction.js</code></td>
 	<td><code>XBigFraction</code></td>
-	<td>BigNumber implementation for <code>xfraction.js</code>. All input and output fractions are of the type <code>BigNumber<code> (therefore, needs dependency [<code>bignumber.js</code>](https://github.com/MikeMcl/bignumber.js/blob/master/bignumber.js)</td>
+	<td>BigNumber implementation for <code>xfraction.js</code>. All input and output fractions are of the type <code>BigNumber<code> (therefore, needs dependency <a href="https://github.com/MikeMcl/bignumber.js/blob/master/bignumber.js"><code>bignumber.js</code></a></td>
 </tr>
 </table>
 
@@ -32,6 +32,9 @@ Example: `isPrime()` usage:
     // outputs "true"
 </script>
 ```
+
+# Documentation
+**Note**: A *ClassName* in italics represents an instance of a class. For example, make sure not to confuse the static function `XMath.factorial(n)` (which is a class function that performs an operation on `n`)) with an object method, such as `*XFraction*.reduce()` (which is performed on an `XFraction` instance).
 
 #### Sequence Generators
 <table>
@@ -78,5 +81,42 @@ Example: `isPrime()` usage:
 <tr>
 	<td> <code>XMath.pad(n, pad, length [, before]);</code></td>
 	<td>Pads a number or string <code>n</code> with <code>pad</code> number of characters. <code>before</code> is an optional parameter determining whether or not to prepend the padding (<code>true</code>, default value) or append(<code>false</code>)</td>
+</tr>
+</table>
+
+#### Fractions
+**Note**: For all of these, `XBigFraction` can replace `XFraction`; just make sure to include the right file (`xbigfraction.js`) and its dependency ([`bignumber.js`](https://github.com/MikeMcl/bignumber.js/blob/master/bignumber.js)).
+<table>
+<tr>
+	<td><code>new XFraction(numerator, denominator)</code></td>
+	<td>Create a new <code>XFraction</code> instance</td>
+</tr>
+<tr>
+	<td><code><em>XFraction</em>.multiply(fraction)</code></td>
+	<td>Multiplies fraction with <code>fraction</code>.</td>
+</tr>
+<tr>
+	<td><code><em>XFraction</em>.divide(fraction)</code></td>
+	<td>Divides fraction by <code>fraction</code>.</td>
+</tr>
+<tr>
+	<td><code><em>XFraction</em>.add(fraction)</code></td>
+	<td>Adds fraction to <code>fraction</code>.</td>
+</tr>
+<tr>
+	<td><code><em>XFraction</em>.subtract(fraction)</code></td>
+	<td>Subtracts <code>fraction</code> from fraction.</td>
+</tr>
+<tr>
+	<td><code><em>XFraction</em>.reduce()</code></td>
+	<td>Simplifies fraction.</td>
+</tr>
+<tr>
+	<td><code><em>XFraction</em>.toString()</code></td>
+	<td>Returns string representation of fraction (<code>"numerator/denominator"</code>).</td>
+</tr>
+<tr>
+	<td><code><em>XFraction</em>.toDecimal()</code></td>
+	<td>Returns decimal representation of fraction (<code>(Number) numerator/denominator</code>)</td>
 </tr>
 </table>
