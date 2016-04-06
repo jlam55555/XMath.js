@@ -34,7 +34,7 @@ Example: `isPrime()` usage:
 ```
 
 # Documentation
-**Note**: A *ClassName* in italics represents an instance of a class. For example, make sure not to confuse the static function `XMath.factorial(n)` (which is a class function that performs an operation on `n`)) with an object method, such as `<em>XFraction</em>.reduce()` (which is performed on an `XFraction` instance).
+**Note**: A *ClassName* in italics represents an instance of a class. For example, make sure not to confuse the static function `XMath.factorial(n)` (which is a class function that performs an operation on `n`)) with an object method, such as <em>`XFraction`</em>`.reduce()` (which is performed on an `XFraction` instance).
 
 #### Sequence Generators
 <table>
