@@ -4,11 +4,13 @@ JavaScript XMath library (and friends) for supplemental math functions (outside 
 #### Usage
 Download the `xmath.js` file into the desired directory, include in a regular `<script>` tag (before the script that uses the functions), and start math-ing away!
 
-    <script src="xmath.js"></script>
-    <script>
-	    console.log(XMath.isPrime(313062169711));
-	    // outputs "true"
-    </script>
+```javascript
+<script src="xmath.js"></script>
+<script>
+    console.log(XMath.isPrime(313062169711));
+    // outputs "true"
+</script>
+```
 
 #### Sequence Generators
 <table>
