@@ -14,7 +14,7 @@ JavaScript XMath library (and friends) for supplemental math functions (outside 
 <tr>
 	<td><code>xbigfraction.js</code></td>
 	<td><code>XBigFraction</code></td>
-	<td>BigNumber implementation for <code>xfraction.js</code>. All input and output fractions are of the type <code>BigNumber<code> (therefore, needs dependency <a href="https://github.com/MikeMcl/bignumber.js/blob/master/bignumber.js"><code>bignumber.js</code></a></td>
+	<td>BigNumber implementation for <code>xfraction.js</code>. All input and output fractions are of the type <code>BigNumber</code> (therefore, needs dependency <a href="https://github.com/MikeMcl/bignumber.js/blob/master/bignumber.js"><code>bignumber.js</code</a>)</td>
 </tr>
 </table>
 
@@ -34,7 +34,7 @@ Example: `isPrime()` usage:
 ```
 
 # Documentation
-**Note**: A *ClassName* in italics represents an instance of a class. For example, make sure not to confuse the static function `XMath.factorial(n)` (which is a class function that performs an operation on `n`)) with an object method, such as `*XFraction*.reduce()` (which is performed on an `XFraction` instance).
+**Note**: A *ClassName* in italics represents an instance of a class. For example, make sure not to confuse the static function `XMath.factorial(n)` (which is a class function that performs an operation on `n`)) with an object method, such as `<em>XFraction</em>.reduce()` (which is performed on an `XFraction` instance).
 
 #### Sequence Generators
 <table>
