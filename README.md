@@ -44,7 +44,7 @@ Example: `isPrime()` usage:
 </tr>
 <tr>
 	<td> <code>XMath.eSieve(n);</code></td>
-	<td>Find primes up to <code>n</code> using the <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes>Sieve of Eratosthenes</a></td>
+	<td>Find primes up to <code>n</code> using the <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">Sieve of Eratosthenes</a></td>
 </tr>
 <tr>
 	<td> <code>XMath.fibonacci(n);</code></td>
